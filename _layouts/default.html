@@ -24,11 +24,11 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         <p class="view">
-          <a href="https://codeforthought.buzzsprout.com">Listen to the episodes</a>
+          <a href="{{ site.github.podcast_url }}">Listen to the episodes</a>
         </p>
 
         <p class="view">
-          <a href="mailto:code4thought@proton.me">Email</a>
+          <a href="{{ site.github.email_mailto }}"">Email</a>
         </p>
 
         {% if site.github.is_user_page %}
