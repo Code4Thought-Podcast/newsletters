@@ -2,3 +2,7 @@ theme: jekyll-theme-minimal
 title: Code For Thought
 description: Blogs, News and other bits for the Code for Thought Podcast
 show_downloads: false
+github:
+  podcast_url: https://codeforthought.buzzsprout.com
+  email_mailto: mailto:code4thought@proton.me
+  patreon: https://www.patreon.com/codeforthought
