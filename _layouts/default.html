@@ -21,12 +21,13 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <ul class="downloads">
-          <li><a href="{{ site.github.podcast_url }}">Listen to the <strong>episodes</strong></a></li>
-          <li><a href="{{ site.github.email_mailto }}">Send me an <strong>email</strong></a></li>
-          <li><a href="{{ site.github.patreon }}">Support the podcast on <strong>Patreon</strong></a></li>
-        </ul>
-
+        <p><a href="{{ site.github.podcast_url }}">Listen to <strong>episodes</strong></a></p>
+        <p><a href="{{ site.github.email_mailto }}">Send an <strong>email</strong></a></p>
+        <p><a href="{{ site.github.patreon }}">Support on <strong>Patreon</strong></a></p>
+        <p>Mastodon <strong>@code4thought@fosstodon.org</strong></p>
+        <p>Slack ukrse.slack.com <strong>@piddie</strong></p>
+        <p><a href="{{ site.github.linkedin }}">Follow me on<strong>LinkedIn</strong></a></p>
+ 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
