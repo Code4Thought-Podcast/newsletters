@@ -1,5 +1,11 @@
 # News and Blogs
 
+## 1 Feb 2023, FOSDEM 
+Not being a fan of acronyms, let's begin by explaining what [FOSDEM](https://fosdem.org/2023/) actually stands for. Acc to the conference website, the origin go back to the year 2000, when Raphael Bauduin create the Open Source Developers' European Meeting (OSDEM). In the second year, it was renamed to FOSDEM - and I am taking a wild guess here when I assume the F to stand for Free. So, there you have it. 
+
+So, FOSDEM will be running for two days, 4 and 5 Feb 2023, in Brussels at Université Libre. Brussels being within easy reach from London on the Eurostar, I'll be heading off this coming Saturday to see for myself. It promises to be an interesting event with tons of developer and plenary sessions, in person as well as hybrid. Looking forward to it. 
+
+
 ## 29 Jan 2023, What's Coming this Year?
 The good news is that I there are a number of episodes ready for publishing until summer this year. But, as we go into year 3 of Code for Thought, I'd like to expand the podcast:
 - Conference reporting: In person events are happening again and the plan is to start covering conferences and workshops, starting with [FOSDEM](https://fosdem.org/2023/) in Brussels 4 and 5 Feb, followed by the German RSE [conference](https://de-rse23.sciencesconf.org) in Paderborn 20-22 Feb and [JupyterCon](https://www.jupytercon.com) in Paris 10-12 May.
