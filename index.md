@@ -1,5 +1,9 @@
 # News and Blogs
 
+## 2 Feb 2023, FOSDEM - Conquer the Chaos
+I am looking forward to my trip to Brussels on 4 Feb 2023 for the [FOSDEM](https://fosdem.org/2023/) conference at the Université Libre. The organisers just posted a message on Mastodon calling for volunteers - to conquer the chaos. I like that! 
+It'll be the first time to cover a conference and I hope it will work out. 
+
 ## 29 Jan 2023, What's Coming this Year?
 The good news is that I there are a number of episodes ready for publishing until summer this year. But, as we go into year 3 of Code for Thought, I'd like to expand the podcast:
 - Conference reporting: In person events are happening again and the plan is to start covering conferences and workshops, starting with [FOSDEM](https://fosdem.org/2023/) in Brussels 4 and 5 Feb, followed by the German RSE [conference](https://de-rse23.sciencesconf.org) in Paderborn 20-22 Feb and [JupyterCon](https://www.jupytercon.com) in Paris 10-12 May.
