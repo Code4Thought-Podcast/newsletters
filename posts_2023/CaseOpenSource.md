@@ -33,10 +33,12 @@ This is, of course, no longer a seemless end to end solution. And it looks like 
 
 
 ## References
-<small>
+
 1. [FOSDEM 2023 Tackling disinformation using opensource software](https://www.fosdem.org/2023/schedule/event/openresearch_tackling_disinformation/)
+
 2. [Microsoft Books Closing](https://support.microsoft.com/en-us/account-billing/books-in-microsoft-store-faq-ff0b7b84-7052-4088-9262-d7e4ee22419c)
+
 3. [Article](https://theconversation.com/do-we-really-own-our-digital-possessions-115003) on ownership rights of digital objects, 2019
-</small>
+
 
 
