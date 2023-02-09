@@ -1,3 +1,5 @@
+plugins: jekyll-feed
+author: Peter Schmidt
 theme: jekyll-theme-minimal
 title: Code For Thought
 description: Blogs, News and other bits for the Code for Thought Podcast
