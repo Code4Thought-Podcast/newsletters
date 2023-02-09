@@ -1,4 +1,4 @@
-plugins: jekyll-feed
+plugins: [jekyll-feed]
 author: Peter Schmidt
 theme: jekyll-theme-minimal
 title: Code For Thought
