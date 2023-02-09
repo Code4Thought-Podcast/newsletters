@@ -1,33 +1,40 @@
 # The Case for Open Source and Open Data
 
-It all started with me trying to do some scripting work one Wednesday morning in February. Scripting has become an important part of my podcasting efforts. And with over 50 episodes under the belt there's been a lot of scripting. 
-For two years, I have been using an app for that and it's been an overall good experience. It runs on desktops and mobile devices. The text editor is simple and well designed, the text is based on markdown formatting. Alas, it isn't free. But hey, there is no such thing as a free lunch, right?  
+It all started with me trying to do some scripting work one morning in February. Scripting has become an important part of my podcasting efforts. And with 57 episodes published at the time of writing, there's been a lot of scripting. 
+For over two years, I have been using a scripting app and it's been an overall good and very smooth experience. It runs on desktops and mobile devices. The text editor is simple and well designed and uses markdown formatting. 
 
-All well and good. Until the aforementioned Wednesday morning, that is. On that day, the licence server of the app, which manages subscription and users, decided to throw a wobbly. It no longer recognised and accepted my subscription, which at that stage was still valid for another 6 months. And instead of working on my content I spent the entire morning trying to restore my subscription. I could no longer work with my content from two years, leave alone create new one. 
+All well and good. 
 
-When the disturbance in the force passed and the licence server gracefully accepted my credentials again, I thought I'd do the right thing and start saving and exporting the content elsewhere. Helpfully, there are share, save and export functions in the app. 
-Alas, the content is being saved in a proprietary and binary format rather than the markdown formatted text it is being written in. And exporting gets you PDFs, which isn't exactly an editor's dream either. 
+Until the aforementioned morning, that is. On that day, the licence server of the app, which manages subscription and users, decided to throw a wobbly. It no longer recognised and accepted my subscription, which at that stage was still valid for another 6 months. All of a sudden I was locked out. And instead of working on my content I spent the entire morning trying to restore access to it. 
 
-Which means that not only is access to the content being restricted. Further use and sharing is equally limited. In short, I have little to no control over the content I create within the app. The purveyor of this app has you in a vice - or in modern speak you are caught in their "ecosystem". 
+When the licence server gracefully accepted my credentials again, I thought I'd do the right thing and start saving and exporting my scripts elsewhere. Helpfully, there are share, save and export functions in the app. 
+Alas, the content is saved using a proprietary, binary format instead of the markdown text format it has been written in. And exporting gets you PDFs, which isn't exactly an editor's dream either. 
 
-Don't get me wrong. I do think software engineers and creators of apps must be paid, and paid well. After all, I am one of them. But as we have moved from a software purchase to a software subscription based economic model, it is no longer only the use of software we pay for. We also pay for access to the content, intellectual material and data we produce with it as well. 
+In short, the purveyor of the application had me in a vice by restricting both access (I have to be a paid subscriber) and use (the data format is proprietary or a difficult to edit version) of my content. Which raises an interesting question about who controls and owns the digital content we create (see [3]).
 
-There was a great talk I went to at [FOSDEM 2023](https://www.fosdem.org/2023) given by an investigative journalist who uses open source software for creating tools tackling disinformation (4). Journalists in the field don't have the luxury to work with software that is tied to specific devices (they have to work with whatever they have access to) and that limits access to content. They cannot afford to go through the experience I went through this morning with my editing software. It needs to work. They need access to the content. Wherever. Whenever. Full stop. 
+Take books, for example. Purchasing a printed copy means you own the book. Its keep and use is under your control. With digital books on the other hand, you purchase the rights to read the content, but you do not own it. I know this reads like hair splitting. And in practical terms, you may choose not to worry about it. 
+Unless this happens: in 2019, Microsoft closed its Books section (see [2] in the ref section). All purchased books were no longer accessible and e-libraries vanished into thin air. In cases like this, control over your data and content clearly do matter. 
 
-Subscription based apps, and you hardly find any other in app stores these days, have become cash cows for companies. Just think how much money per month you spend on music and video streaming services, apps, cloud storage, news, social network services, content sharing etc. All the while the content you get through the services has become ephemereal. Here today, gone tomorrow. 
+Which brings me back to the little wobble I had with the scripting app. The subscription fee I pay not only buys me the rights to use the software. It also stores, shares and organises the data I produce with it. This type of service has created an opportunity for some vendors to lock you into their "ecosystem" by taking effective control over your data and intellectual property. 
 
-But there is a different way and I think a way that serves us better. The way that open source/free software and open data give you back control. Maybe the experience won't be quite as smooth as with subscription end to end services. But in actual fact, often the additional effort is minimal and a question of getting used to working in a slightly different way. 
+As more and more companies move into subscription based services, it is more and more important that we retain (and regain) control over our digital work and content. It befalls to us to ensure we select vendors that follow [FAIR](https://www.go-fair.org) principles: findable, accessible, interoperable and reproducible. We can do this by choosing products based on open source software and open data standards. 
 
-Take the scripting software as an example. It helps to split the "smooth" end-to-end experience into its essential components.  
-- **editing** there is a plethora of free command line and GUI based text editors available
-- **data format** store the data in a format that is a recognised and open standard and freely exchangeable. For text this is trivial, even if it is formatted as markdown. 
-- **organising** use the file system. 
-- **sharing** This part, there we will need another service. GitHub comes to mind, but I appreciate that not everybody is comfortable with it. Dropbox is very popular. And there is another open source based service called [Nextcloud](https://nextcloud.com), but I haven't tried it yet. 
+There was a great talk (see [1]) I went to at [FOSDEM 2023](https://www.fosdem.org/2023) given by an investigative journalist who uses open source software for creating tools tackling disinformation [1]. Journalists in the field don't have the luxury to use software with tight access controls and limitations. They can hardly afford to go through the experience I went through. They need access to their content. Wherever. Whenever.  
 
-Setting all this up and using it took me far less time than figuring out how to restore my paid subscription and regaining access to my content. Lesson learnt!
+Of course, this comes at a price. Software engineers and companies want to make a living, too. But running a business and using open source software and data standards are no contradiction. In fact, many successful companies are using them in their products and services. 
+
+In terms of my scripting app, it didn't take me too long to set up an alternative workflow. The app had three main parts, which I replaced with the following:
+
+- **Edit:** I use Visual Studio Code. But frankly any text editor would do, command-line (emacs) or GUI based. 
+- **Organise:** based on the file system, i.e. build a folder structure around your content. 
+- **Share and Store:** I use GitHub and Dropbox. Of course, there are many other cloud services around.
+
+This is, of course, no longer a seemless end to end solution. And it looks like a lot of additional work. But it isn't. The extra effort turns out to be marginal. And it gives me back what I lost, briefly, before: access and control over my data. 
+
 
 ## References
-(1) Shoshana Zuboff: The Age of Surveillance Capitalism, Profile Books Ltd, 2019, ISBN 978 1 78125 684 8, eISBN 978 1 78283 274 4
-(2) [Financial Times 30 January 2023 paywall](https://www.ft.com/content/0cca6054-6fc9-4a94-b2e2-890c50d956d5), Interview with Shoshana Zuboff: 'Privacy has been extinguished. It is now a Zombie'  
-(3) Wikipedia on [Cambridge Analytica scandal](https://en.wikipedia.org/wiki/Facebook–Cambridge_Analytica_data_scandal)
-(4) [FOSDEM 2023 Tackling disinformation using opensource software](https://www.fosdem.org/2023/schedule/event/openresearch_tackling_disinformation/)
+[1] [FOSDEM 2023 Tackling disinformation using opensource software](https://www.fosdem.org/2023/schedule/event/openresearch_tackling_disinformation/)
+[2] [Microsoft Books closing] (https://support.microsoft.com/en-us/account-billing/books-in-microsoft-store-faq-ff0b7b84-7052-4088-9262-d7e4ee22419c)
+[3] (https://theconversation.com/do-we-really-own-our-digital-possessions-115003) Article on ownership rights of digital objects, 2019
+
+
