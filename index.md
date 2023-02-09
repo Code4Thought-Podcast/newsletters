@@ -1,7 +1,7 @@
 # News and Blogs
 
 ## 8 Feb 2023, The case for Open Software and Data
-Since I started podcasting I have been writing and scripting a lot. For two years this worked well, until this morning when the app I used decided to block access to my content. It turned out to be a licence server issue. But it made me think about the pitfalls of using proprietory software and data formats... [Read on](./posts_2023/CaseOpenSource.md).
+Since I started podcasting I have been writing and scripting a lot. For two years this worked well, until this morning when the app I used decided to block access to my content. It turned out to be a licence server issue. But it made me think about the pitfalls of using proprietary software and data formats... [Read on](./posts_2023/CaseOpenSource.md).
 
 ## 2 Feb 2023, FOSDEM - Conquer the Chaos
 I am looking forward to my trip to Brussels on 4 Feb 2023 for the [FOSDEM](https://fosdem.org/2023/) conference at the Université Libre. The organisers just posted a message on Mastodon calling for volunteers - to conquer the chaos. I like that! 
