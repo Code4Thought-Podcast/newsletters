@@ -1,14 +1,14 @@
 # The Case for Open Source and Open Data
 
 It all started with me trying to do some scripting work one morning in February. Scripting has become an important part of my podcasting efforts. And with 57 episodes published at the time of writing, there's been a lot of scripting. 
-For over two years, I have been using a scripting app and it's been an overall good and very smooth experience. It runs on desktops and mobile devices. The text editor is simple and well designed and uses markdown formatting. 
+For over two years, I subscribed to a bespoke app for this purpose. It's been an overall good and very smooth experience. It runs on and syncs between desktops and mobile devices. The text editor is simple, well designed and uses markdown formatting. It's a nice end-to-end solution to create, organise, store and share content. 
 
 All well and good. 
 
 Until the aforementioned morning, that is. On that day, the licence server of the app, which manages subscription and users, decided to throw a wobbly. It no longer recognised and accepted my subscription, which at that stage was still valid for another 6 months. All of a sudden I was locked out. And instead of working on my content I spent the entire morning trying to restore access to it. 
 
-When the licence server gracefully accepted my credentials again, I thought I'd do the right thing and start saving and exporting my scripts elsewhere. Helpfully, there are share, save and export functions in the app. 
-Alas, the content is saved using a proprietary, binary format instead of the markdown text format it has been written in. And exporting gets you PDFs, which isn't exactly an editor's dream either. 
+When the licence server gracefully accepted my credentials again, I thought I'd do the right thing and save my scripts elsewhere as a backup. Helpfully, the app has share, save and export functions. 
+Alas, rather than saving the content in the markdown text format it was written in, it is being saved using a proprietary binary format. And exporting gets you PDFs, which isn't exactly any editor's dream. 
 
 In short, the purveyor of the application had me in a vice by restricting both access (I have to be a paid subscriber) and use (the data format is proprietary or a difficult to edit version) of my content. Which raises an interesting question about who controls and owns the digital content we create (see [3]).
 
@@ -19,17 +19,16 @@ Which brings me back to the little wobble I had with the scripting app. The subs
 
 As more and more companies move into subscription based services, it is more and more important that we retain (and regain) control over our digital work and content. It befalls to us to ensure we select vendors that follow [FAIR](https://www.go-fair.org) principles: findable, accessible, interoperable and reproducible. We can do this by choosing products based on open source software and open data standards. 
 
+Of course, businesses need to generate revenue to survive and software engineers need to make a living, too. But running a business and using open source software and data standards are no contradiction. In fact, many successful companies are using them in their products and services. 
+
 There was a great talk (see [1]) I went to at [FOSDEM 2023](https://www.fosdem.org/2023) given by an investigative journalist who uses open source software for creating tools tackling disinformation [1]. Journalists in the field don't have the luxury to use software with tight access controls and limitations. They can hardly afford to go through the experience I went through. They need access to their content. Wherever. Whenever.  
 
-Of course, this comes at a price. Software engineers and companies want to make a living, too. But running a business and using open source software and data standards are no contradiction. In fact, many successful companies are using them in their products and services. 
+In terms of my scripting app, I replaced it with tools based on open source software and standard data formats (markdown/text). In fact, this turned out to be quite simple and quick: 
+- For editing text in markdown format there is an abundance of editors available, from commandline (emacs, vim, nano etc.) to GUI (Visual Studio Code, Atom etc.). 
+- I created a folder structure that maps to the content to organise my scripts. 
+- Next, using GitHub, I created a repository to back up my data. Using the GitHub mobile app, I can view and edit the textfiles across my mobile devices.
 
-In terms of my scripting app, it didn't take me too long to set up an alternative workflow. The app had three main parts, which I replaced with the following:
-
-- **Edit:** I use Visual Studio Code. But frankly any text editor would do, command-line (emacs) or GUI based. 
-- **Organise:** based on the file system, i.e. build a folder structure around your content. 
-- **Share and Store:** I use GitHub and Dropbox. Of course, there are many other cloud services around.
-
-This is, of course, no longer a seemless end to end solution. And it looks like a lot of additional work. But it isn't. The extra effort turns out to be marginal. And it gives me back what I lost, briefly, before: access and control over my data. 
+This, of course, is no longer the seemless end-to-end experience I get with the app. But the additional effort it costs to set up this workflow and run with it is absolutely marginal. And it gives me back what I lost, briefly, before: access and control over my data. 
 
 
 ## References
